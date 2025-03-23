@@ -184,6 +184,7 @@ console.log("Posisi karakter: " + posisiKarakter.getState());
 
 **Output**
 
-![output](https://github.com/user-attachments/assets/a6347d91-bfbd-43c8-ab63-5483fae5348e)
+![output]![image](https://github.com/user-attachments/assets/30d9c840-60d5-483d-a564-d103c27daf8f)
+
 
 ---
