@@ -6,7 +6,7 @@
 **MODUL IV**  
 **AUTOMATA & TABLE-DRIVEN CONSTRUCTION**
 
-![logo tel-u](https://github.com/user-attachments/assets/3a44181d-9c92-47f6-8cf0-87755117fd99)
+<img src="https://github.com/user-attachments/assets/637271ab-0240-4561-a7a6-04cb1169f636" alt="Logo Vertikal Telkom University" width="350"/>
 
 Disusun Oleh :
 
