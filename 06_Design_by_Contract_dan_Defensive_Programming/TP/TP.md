@@ -57,7 +57,7 @@ menerima jumlah angka yang akan ditambahkan ke “playCount”.
 E. Class tersebut juga mempunyai method “PrintVideoDetails” yang melakukan print baik dari
 id, title dan playCount dengan format bebas.
 F. Panggil method tersebut pada fungsi/method utama dengan membuat sebuah video
-dengan judul “Tutorial Design By Contract – [Irpan_Praktikan]”.
+dengan judul “Tutorial Design By Contract – [Danuyaa]”.
 
 ## A. Soal Nomor 2
 
@@ -112,7 +112,7 @@ class SayaTubeVideo {
 
 try {
   const video1 = new SayaTubeVideo(
-    "Tutorial Design By Contract – [Irpan_Praktikan]"
+    "Tutorial Design By Contract – [Danuyaa]"
   );
 
   video1.IncreasePlayCount(5000000);

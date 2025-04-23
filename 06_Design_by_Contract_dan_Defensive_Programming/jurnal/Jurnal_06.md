@@ -150,20 +150,20 @@ bagus untuk ditonton.
   const SayaTubeUser = require("./sayaTubeUser");
 
   function main() {
-    const username = "Irfan Muria";
+    const username = "Danuar Ihza Mahendra";
     const user = new SayaTubeUser(username);
 
     const judulFilm = [
-      "Review Film Masa Lalu Tetap Pemenangnya oleh Irfan Muria",
-      "Review Film Interstellar oleh Irfan Muria",
-      "Review Film Inception oleh Irfan Muria",
-      "Review Film Parasite oleh Irfan Muria",
-      "Review Film The Social Network oleh Irfan Muria",
-      "Review Film The Dark Knight oleh Irfan Muria",
-      "Review Film Whiplash oleh Irfan Muria",
-      "Review Film Your Name oleh Irfan Muria",
-      "Review Film Everything Everywhere All At Once oleh Irfan Muria",
-      "Review Film The Secret Life of Walter Mitty oleh Irfan Muria",
+    "Review Film Masa Lalu Tetap Pemenangnya oleh Danuar Ihza Mahendra",
+    "Review Film Interstellar oleh Danuar Ihza Mahendra",
+    "Review Film Inception oleh Danuar Ihza Mahendra",
+    "Review Film Parasite oleh Danuar Ihza Mahendra",
+    "Review Film The Social Network Danuar Ihza Mahendra",
+    "Review Film The Dark Knight oleh Danuar Ihza Mahendra",
+    "Review Film Whiplash oleh Danuar Ihza Mahendra",
+    "Review Film Your Name oleh Danuar Ihza Mahendra",
+    "Review Film Everything Everywhere All At Once oleh Danuar Ihza Mahendra",
+    "Review Film The Secret Life of Walter Mitty oleh Danuar Ihza Mahendra",
     ];
 
     for (let judul of judulFilm) {
@@ -367,10 +367,10 @@ dapat dipercepat).
   const SayaTubeVideo = require("./sayaTubeVideo");
   const SayaTubeUser = require("./sayaTubeUser");
 
-  const user = new SayaTubeUser("Irfan Muria");
+  const user = new SayaTubeUser("Danuar Ihza Mahendra");
 
   for (let i = 1; i <= 10; i++) {
-    const video = new SayaTubeVideo(`Review Film Ke-${i} oleh Irfan Muria`);
+    const video = new SayaTubeVideo(`Review Film Ke-${i} oleh Danuar Ihza Mahendra`);
     video.increasePlayCount(25000);
     user.addVideo(video);
   }
@@ -390,7 +390,7 @@ dapat dipercepat).
   }
   user.addVideo(overflowVideo);
 
-  console.log("\n=== Daftar Video Irfan Muria ===");
+  console.log("\n=== Daftar Video Danuar Ihza Mahendra ===");
   user.printAllVideoPlaycount();
 
   console.log("\nTotal Semua Play Count:", user.getTotalVideoPlayCount());
