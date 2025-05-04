@@ -1,0 +1,704 @@
+{
+	"info": {
+		"_postman_id": "ef452c27-d2ca-49e2-8d9d-8fd8d774cd88",
+		"name": "Praktikum 10",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44657828",
+		"_collection_link": "https://danuyaa-6860959.postman.co/workspace/danuyaa's-Workspace~0d562ad4-346e-4ec2-8ae0-426005427536/collection/44657828-ef452c27-d2ca-49e2-8d9d-8fd8d774cd88?action=share&source=collection_link&creator=44657828"
+	},
+	"item": [
+		{
+			"name": "Get All Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/mahasiswa",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "326"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"146-p5jLTjkzpsOX17ExVglBi/umzZ4\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:05:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"nim\": \"2211104075\",\n            \"nama_lengkap\": \"Irfan Muria\",\n            \"email\": \"irfanmuria04@gmail.com\",\n            \"no_hp\": \"087875161921\",\n            \"tanggal_lahir\": \"2025-04-04T00:00:00.000Z\",\n            \"jenis_kelamin\": \"L\",\n            \"created_at\": \"2025-05-04T14:04:45.336Z\",\n            \"updated_at\": \"2025-05-04T14:04:45.336Z\"\n        }\n    ]\n}"
+				},
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "586"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"24a-7VM61L054fWQe0nuwW8cNj6kWXg\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:39:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"nim\": \"2211104084\",\n            \"nama_lengkap\": \"Danuar Ihza Mahendra\",\n            \"email\": \"danuaganteng01@gmail.com\",\n            \"no_hp\": \"087875161924\",\n            \"tanggal_lahir\": \"2004-01-01T00:00:00.000Z\",\n            \"jenis_kelamin\": \"L\",\n            \"created_at\": \"2025-05-04T14:34:28.427Z\",\n            \"updated_at\": \"2025-05-04T14:36:15.416Z\"\n        },\n        {\n            \"id\": 2,\n            \"nim\": \"22111040840\",\n            \"nama_lengkap\": \"Danuar\",\n            \"email\": \"ganteng01@gmail.com\",\n            \"no_hp\": \"087875162024\",\n            \"tanggal_lahir\": \"2025-06-06T00:00:00.000Z\",\n            \"jenis_kelamin\": \"L\",\n            \"created_at\": \"2025-05-04T14:37:49.768Z\",\n            \"updated_at\": \"2025-05-04T14:37:49.768Z\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get By Id Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/mahasiswa/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "324"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"144-g/89LiM626mQmw9Isw9WeaMcLqM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:10:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104075\",\n        \"nama_lengkap\": \"Irfan Muria\",\n        \"email\": \"irfanmuria04@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2004-04-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-04T14:04:45.336Z\",\n        \"updated_at\": \"2025-05-04T14:09:16.288Z\"\n    }\n}"
+				},
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "335"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"14f-5nTv0+Yc+wmDdgpalZhPPhG+xp4\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:40:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104084\",\n        \"nama_lengkap\": \"Danuar Ihza Mahendra\",\n        \"email\": \"danuaganteng01@gmail.com\",\n        \"no_hp\": \"087875161924\",\n        \"tanggal_lahir\": \"2004-01-01T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-04T14:34:28.427Z\",\n        \"updated_at\": \"2025-05-04T14:36:15.416Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nim\": \"2211104084\",\r\n    \"nama_lengkap\": \"Danuar Ihza Mahendra\",\r\n    \"email\": \"danuaganteng01@gmail.com\",\r\n    \"no_hp\": \"087875161924\",\r\n    \"tanggal_lahir\": \"2025-01-01\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/mahasiswa",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104075\",\r\n    \"nama_lengkap\": \"Irfan Muria\",\r\n    \"email\": \"irfanmuria04@gmail.com\",\r\n    \"no_hp\": \"087875161921\",\r\n    \"tanggal_lahir\": \"2025-04-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/mahasiswa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "230"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e6-HUnGbGCU+8kChUIrdvUDWHlLKwk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:04:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 201,\n    \"message\": \"Mahasiswa created successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104075\",\n        \"nama_lengkap\": \"Irfan Muria\",\n        \"email\": \"irfanmuria04@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2025-04-04\",\n        \"jenis_kelamin\": \"L\"\n    }\n}"
+				},
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104084\",\r\n    \"nama_lengkap\": \"Danuar Ihza Mahendra\",\r\n    \"email\": \"danuaganteng01@gmail.com\",\r\n    \"no_hp\": \"087875161924\",\r\n    \"tanggal_lahir\": \"2025-01-01\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/mahasiswa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "241"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"f1-38JLMG1i+w0kMkw4d1FzA75llto\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:34:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 201,\n    \"message\": \"Mahasiswa created successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104084\",\n        \"nama_lengkap\": \"Danuar Ihza Mahendra\",\n        \"email\": \"danuaganteng01@gmail.com\",\n        \"no_hp\": \"087875161924\",\n        \"tanggal_lahir\": \"2025-01-01\",\n        \"jenis_kelamin\": \"L\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nim\": \"2211104084\",\r\n    \"nama_lengkap\": \"Danuar Ihza Mahendra\",\r\n    \"email\": \"danuaganteng01@gmail.com\",\r\n    \"no_hp\": \"087875161924\",\r\n    \"tanggal_lahir\": \"2004-01-01\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/mahasiswa/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104075\",\r\n    \"nama_lengkap\": \"Irfan Muria\",\r\n    \"email\": \"irfanmuria04@gmail.com\",\r\n    \"no_hp\": \"087875161921\",\r\n    \"tanggal_lahir\": \"2004-04-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "324"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"144-gZcsae4rU4I9l86nw/Y3htcqfUc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:09:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa updated successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104075\",\n        \"nama_lengkap\": \"Irfan Muria\",\n        \"email\": \"irfanmuria04@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2004-04-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-04T14:04:45.336Z\",\n        \"updated_at\": \"2025-05-04T14:09:16.288Z\"\n    }\n}"
+				},
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104084\",\r\n    \"nama_lengkap\": \"Danuar Ihza Mahendra\",\r\n    \"email\": \"danuaganteng01@gmail.com\",\r\n    \"no_hp\": \"087875161924\",\r\n    \"tanggal_lahir\": \"2004-01-01\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "335"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"14f-6dPoSv8U1B2FkrXXZsiO1dD/9S8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:36:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa updated successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104084\",\n        \"nama_lengkap\": \"Danuar Ihza Mahendra\",\n        \"email\": \"danuaganteng01@gmail.com\",\n        \"no_hp\": \"087875161924\",\n        \"tanggal_lahir\": \"2004-01-01T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-04T14:34:28.427Z\",\n        \"updated_at\": \"2025-05-04T14:36:15.416Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/mahasiswa/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mahasiswa",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "324"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"144-qs+sww2yFQc/Vb1cgEezg6eUfj8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:11:38 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa deleted successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104075\",\n        \"nama_lengkap\": \"Irfan Muria\",\n        \"email\": \"irfanmuria04@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2004-04-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-04T14:04:45.336Z\",\n        \"updated_at\": \"2025-05-04T14:09:16.288Z\"\n    }\n}"
+				},
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/mahasiswa/2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"mahasiswa",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "317"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"13d-ZNCboVMzH39akmySmh4uTZsrK8o\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 May 2025 14:41:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa deleted successfully\",\n    \"data\": {\n        \"id\": 2,\n        \"nim\": \"22111040840\",\n        \"nama_lengkap\": \"Danuar\",\n        \"email\": \"ganteng01@gmail.com\",\n        \"no_hp\": \"087875162024\",\n        \"tanggal_lahir\": \"2025-06-06T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-04T14:37:49.768Z\",\n        \"updated_at\": \"2025-05-04T14:37:49.768Z\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
