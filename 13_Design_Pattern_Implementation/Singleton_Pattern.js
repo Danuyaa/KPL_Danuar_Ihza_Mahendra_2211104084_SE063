@@ -40,7 +40,7 @@ const config1 = new ConfigManager();
 config1.setConfig('theme', 'dark');
 config1.setConfig('language', 'id');
 
-// Mencoba membuat instance kedua (seharusnya mengembalikan instance yang sama)
+// Mencoba membuat instance ke 2 (seharusnya mengembalikan instance yang sama)
 console.log('\nMembuat instance kedua dari ConfigManager:');
 const config2 = new ConfigManager();
 config2.setConfig('fontSize', '14px');

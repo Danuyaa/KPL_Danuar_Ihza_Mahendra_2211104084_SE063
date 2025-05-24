@@ -50,7 +50,7 @@ class IndonesianToEnglishTranslator extends EnglishSpeaker {
     }
 }
 
-// Client Code: Simulasi penggunaan Adapter dalam konteks pertemuan internasional
+// Client kode: Simulasi penggunaan Adapter dalam konteks pertemuan internasional
 console.log("Pertemuan Internasional dimulai:");
 
 // Membuat instance dari Adaptee (pembicara Indonesia)

@@ -72,7 +72,7 @@ class Waiter {
     }
 }
 
-// Client code
+// Client kode
 const chef = new Chef(); // Membuat instance dari Receiver (Chef)
 const waiter = new Waiter(); // Membuat instance dari Invoker (Waiter)
 
