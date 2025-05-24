@@ -73,7 +73,7 @@ import uvicorn
 app = FastAPI()
 
 # Konfigurasi ngrok (ganti token dengan punyamu)
-conf.get_default().auth_token = "2xGqNb252DV6YJOKjGbQwhPLENo_2AnsLwFkxF3Jjp7qzpcvV"
+conf.get_default().auth_token = "2wD8aJ3QrpkOGwu7YcDwBbW7aXK_kcp7echFBDfAthtrzRE9"
 
 # MODELS
 class Mahasiswa(BaseModel):
@@ -129,18 +129,18 @@ uvicorn.run(app, port=3000)
 
 - GET /api/Mahasiswa
 
-![Image](https://github.com/user-attachments/assets/c81d2764-5c93-49ef-8cea-b138a5cda7ce)
+![image](https://github.com/user-attachments/assets/b8088a2b-30d7-4886-89a0-82f2acc9ede8)
 
 - POST /api/Mahasiswa
 
-![Image](https://github.com/user-attachments/assets/41b65769-d8f4-460f-a381-0bbb8e46c2cd)
+![image](https://github.com/user-attachments/assets/3b2722aa-ed3d-47ff-9052-dc53cb1b780e)
 
 - GET /api/Mahasiswa/{index}
 
-![Image](https://github.com/user-attachments/assets/6af3ab6b-d760-4037-83b2-e062a37bca24)
+![image](https://github.com/user-attachments/assets/682a6606-87c6-4aae-aaf8-ff419f7e145b)
 
 - DELETE /api/Mahasiswa/{index}
 
-![Image](https://github.com/user-attachments/assets/fc0e0f97-7b74-4d49-bd13-42d5d524692b)
+![image](https://github.com/user-attachments/assets/2132dbb0-450a-46d4-a741-fdde11834eb4)
 
 ---
