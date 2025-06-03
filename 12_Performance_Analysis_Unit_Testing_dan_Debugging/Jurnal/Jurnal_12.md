@@ -105,7 +105,7 @@ unit test
 - Source Code package.json
 ```
 {
-  "name": "tpmodul12_2211104076",
+  "name": "tpmodul12_2211104084",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
@@ -133,3 +133,9 @@ try {
 }         
 ```
 **Output**
+---
+![image](https://github.com/user-attachments/assets/1b7f93ed-2333-42de-ae69-724005327578)
+![image](https://github.com/user-attachments/assets/2e5c0e62-8595-40b8-928d-065ee4330b8f)
+![image](https://github.com/user-attachments/assets/9f85f82a-f362-423a-9af2-2a11a827f5e6)
+
+
