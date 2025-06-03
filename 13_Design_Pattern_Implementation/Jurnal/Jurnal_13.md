@@ -60,6 +60,8 @@ data1.printSemuaData();
 console.log(`\nJumlah elemen data1: ${data1.getSemuaData().length}`);
 console.log(`Jumlah elemen data2: ${data2.getSemuaData().length}`);
 
+```
+
 - Source Code PusatDataSingleton.js
 ```
 class PusatDataSingleton {
@@ -104,19 +106,9 @@ class PusatDataSingleton {
 
 module.exports = PusatDataSingleton;
 ```
-
 ---
 **Output**
-Cetak data dari data2:
-Data Tersimpan:
-0: Nama1 - yantok
-1: Nama2 - ramdan 2
-2: Asisten - zakary
+---
+![image](https://github.com/user-attachments/assets/5c249854-c848-4ebc-aa96-46bbb28ce756)
 
-Cetak ulang dari data1 setelah penghapusan:
-Data Tersimpan:
-0: Nama1 - yantok
-1: Nama2 - ramdan 2
 
-Jumlah elemen data1: 2
-Jumlah elemen data2: 2
