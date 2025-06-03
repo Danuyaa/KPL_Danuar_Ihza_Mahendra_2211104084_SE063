@@ -31,7 +31,9 @@ TELKOM UNIVERSITY PURWOKERTO
 
 # TUGAS JURNAL
 
-- Source Code matematikaLibraries.js
+# SOAL
+
+- matematikaLibraries.js
 ```
 const MatematikaLibraries = {
   FPB: function(a, b) {
@@ -84,7 +86,7 @@ const MatematikaLibraries = {
 module.exports = MatematikaLibraries;
 ```
 
-- Source Code main.js
+- main.js
 ```
 const MathLib = require('./matematikaLibraries');
 
@@ -98,8 +100,7 @@ const koefIntegral = [1, 4, -12, 9];
 console.log("Integral:", MathLib.Integral(koefIntegral));                    
 ```
 
-- Berikut ini output code tersebut: <br>
+- Output<br>
 ![image](https://github.com/user-attachments/assets/bb56c7b5-1098-40cb-9a26-b3123cf7959d)
 
 
-- File matematikaLibraries.js merupakan library yang berisi kumpulan fungsi matematika dasar yang dapat digunakan untuk berbagai operasi numerik. Di dalamnya terdapat fungsi untuk menghitung Faktor Persekutuan Terbesar (FPB), Kelipatan Persekutuan Terkecil (KPK), turunan dari persamaan polinomial, serta integral dari persamaan polinomial. Setiap fungsi dirancang agar mudah dipanggil dan menghasilkan output yang sesuai dengan contoh yang diberikan pada soal. File main.js bertindak sebagai program utama yang memanfaatkan dan menguji fungsi-fungsi dari library matematikaLibraries.js. File ini menampilkan pemanggilan fungsi FPB, KPK, turunan, dan integral dengan input contoh, lalu mencetak hasil perhitungannya ke konsol. File ini menunjukkan bahwa semua fungsi di dalam library berjalan dengan baik dan memberikan output sesuai harapan.
