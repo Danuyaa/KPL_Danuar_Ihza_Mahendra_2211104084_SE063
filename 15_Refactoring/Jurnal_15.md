@@ -3,7 +3,7 @@
 **TUGAS JURNAL**  
 **KONSTRUKSI PERANGKAT LUNAK**
 
-**MODUL XII**  
+**MODUL XV**  
 **AUTOMATA & TABLE-DRIVEN CONSTRUCTION**
 
 <img src="https://github.com/user-attachments/assets/637271ab-0240-4561-a7a6-04cb1169f636" alt="Logo Vertikal Telkom University" width="350"/>
