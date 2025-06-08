@@ -193,18 +193,4 @@ try {
 ---
 **Output**
 ---
-
-Daftar Video (Maks 8):
-User: danuyaa
-Video 1 judul: Review Film Jumbo oleh danuyaa
-Video 2 judul: Review Film The Siege at Thorn High oleh danuyaa
-Video 3 judul: Review Film Captain America: Brave New World  oleh danuyaa
-Video 4 judul: Review Film 1 Kakak 7 Ponakan oleh danuyaa
-Video 5 judul: Review Film Perayaan Mati Rasa oleh danuyaa
-Video 6 judul: Review Film Komang oleh danuyaa
-
-Testing Overflow:
-
-Testing Precondition:
-Judul video maksimal 200 karakter
-[User Error] Video tidak boleh null
+![image](https://github.com/user-attachments/assets/2cf6742c-1ab7-4822-a24b-fd7cd7244599)
