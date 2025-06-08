@@ -135,8 +135,8 @@ rl.question("Ketik '1' untuk Register, '2' untuk Login: ", (choice) => {
 ```
 [
   {
-    "username": "rotibowif",
-    "password": "cc413e5d402ba6f89db098f54928ec0b00ec2ca8a3d342d9b57fadbba09a4c51"
+    "username": "Danuyaa",
+    "password": "a2603d8400c8cf008ac5039d02b795b8447c5a1c3910e569c97f872138af5a0d"
   }
 ]
 ```
