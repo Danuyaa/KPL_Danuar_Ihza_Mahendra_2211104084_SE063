@@ -143,3 +143,4 @@ rl.question("Ketik '1' untuk Register, '2' untuk Login: ", (choice) => {
 ---
 **Output**
 ---
+![image](https://github.com/user-attachments/assets/a3add607-58a5-4d59-ba4c-0885aa62acc4)
